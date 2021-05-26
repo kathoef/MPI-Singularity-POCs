@@ -2,7 +2,7 @@
 
 Testing the portability of containerized MPI simulation codes across HPC systems.
 
-Building singularity files is outlined here: <https://github.com/kathoef/docker2singularity>
+Building the singularity (`*.sif`) files is outlined here: https://github.com/kathoef/docker2singularity
 
 ## References
 
