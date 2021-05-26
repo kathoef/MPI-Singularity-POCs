@@ -1,6 +1,6 @@
 # MPI-Singularity-PoC
 
-Containerized MPI simulation code examples optimized for portability across HPC systems.
+Testing the portability of containerized MPI simulation codes across HPC systems.
 
 ## References
 
