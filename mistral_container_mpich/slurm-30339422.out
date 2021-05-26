@@ -1,0 +1,53 @@
+Currently Loaded Modulefiles:
+  1) singularity/3.6.1-gcc-9.1.0
+srun: MPI types are...
+srun: pmi2
+srun: openmpi
+srun: none
+m11110
+m11111
+m11112
+Hello, I am rank 0/1
+Hello, I am rank 0/1
+Hello, I am rank 0/1
+m11110
+m11111
+m11112
+Hello, I am rank 2/3
+Hello, I am rank 0/3
+Hello, I am rank 1/3
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  beratung@dkrz.de --                                                     *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer MISTRAL ... *
+*
+* JobID            : 30339422
+* JobName          : mpich                                             
+* Account          : bb0519
+* User             : b350097 (25563), bb0519 (1296)                    
+* Partition        : compute
+* QOS              : normal
+* Nodelist         : m[11110-11112] (3)                                        
+* AvgCommBlocking  : 1.0000 (in [0,4] less is better)
+* Submit date      : 2021-05-26T14:34:20
+* Start time       : 2021-05-26T14:34:49
+* End time         : 2021-05-26T14:34:56
+* Elapsed time     : 00:00:07 (Timelimit=00:05:00)                     
+* Command          : /mnt/lustre01/pf/b/b350097/MPI-Singularity-PoC/
+*                    mistral_container_mpich/slurm.sh
+* WorkDir          : /mnt/lustre01/pf/b/b350097/MPI-Singularity-PoC/
+*                    mistral_container_mpich
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)   ReqCPUFreq [Hz]
+* ------------------------------------------------------------------------------
+* batch  | batch           0.0058
+* 0      | bash            0.0017                       ()            Highm1
+* 1      | bash           0.00083                       ()            Highm1
+* ------------------------------------------------------------------------------
+
