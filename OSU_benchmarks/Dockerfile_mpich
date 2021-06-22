@@ -1,0 +1,7 @@
+FROM ubuntu:21.04
+
+RUN apt-get update --yes \
+ && apt-get install --yes mpich make \
+ && apt-get clean && apt-get purge \
+ && rm -rf /var/lib/apt/lists/*
+
