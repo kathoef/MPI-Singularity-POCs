@@ -6,8 +6,6 @@
 #SBATCH --time=00:05:00
 #SBATCH --partition=cluster
 
-# bash mpitest.sh > mpitest.log 2>&1
-
 # Modules
 
 module purge
