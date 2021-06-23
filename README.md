@@ -1,7 +1,7 @@
 # MPI-Singularity-PoC
 
 Testing the portability (and performance!) of containerized MPI simulation codes across HPC systems.
-Currently covers,
+Currently, the following topics are covered,
 
 * container image and code portability across HPC systems: [hello_across_machines](./hello_across_machines)
 * containerized MITgcm test simulation: [MITgcm_container](./MITgcm_container)
