@@ -1,3 +1,8 @@
+
+# docker build -t local/openmpi -f Dockerfile_openmpi .
+# docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v ${PWD}:/output \
+#  kathoef/docker2singularity singularity build ubuntu2104_openmpi.sif docker-daemon://local/openmpi:latest
+
 FROM ubuntu:21.04
 
 RUN apt-get update --yes \
