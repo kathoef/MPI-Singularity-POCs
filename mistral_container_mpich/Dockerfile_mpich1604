@@ -1,6 +1,0 @@
-FROM ubuntu:16.04
-
-RUN apt-get update --yes \
- && apt-get install --yes mpich \
- && rm -rf /var/lib/apt/lists/*
-

@@ -1,5 +1,0 @@
-FROM ubuntu:20.10
-
-RUN apt-get update --yes \
- && apt-get install --yes mpich \
- && rm -rf /var/lib/apt/lists/*
