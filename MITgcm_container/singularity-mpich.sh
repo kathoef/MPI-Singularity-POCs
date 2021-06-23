@@ -22,7 +22,7 @@ export CONTAINER=$HOME/github/MPI-Singularity-PoC/MITgcm_container/mpich2104.sif
 export MPI_HOME=/usr/bin
 export MPI_INC_DIR=/usr/include/x86_64-linux-gnu/mpich
 
-# dirty compiling Singularity container compatibility fix...
+# dirty Singularity container compatibility fix...
 cp $MITGCM/tools/genmake2 $MITGCM/tools/genmake2_orig
 sed -i '1864s/check_fortran_compiler/echo Skipping check_fortran_compiler.../' $MITGCM/tools/genmake2
 singularity run $CONTAINER bash compile.sh > compile.log 2>&1
